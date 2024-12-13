@@ -1,0 +1,37 @@
+
+.rememberLine{
+    margin-top:8px;
+
+    display:flex;
+    justify-content:start;
+    align-items: center;
+    width:100%;
+}
+.remember{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.rememberLine a{
+    color:#FFA200;
+    margin-left:5px
+}
+
+
+
+.loginLine{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    font-size: 16px;
+
+    a{
+    
+        color:#039198;
+        margin-left:3px;
+    }
+}
+
+
+

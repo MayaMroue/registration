@@ -1,0 +1,12 @@
+body{
+    margin:0;
+}
+
+.background {
+    background-image: url('../Assets/Images/Background\ PNG.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: repeat; 
+    height:100%; 
+    width: 100%; 
+}
