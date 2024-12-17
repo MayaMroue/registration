@@ -16,7 +16,7 @@ const ForgetPassword = () => {
         </div>
 
         <div className="Card-form" style={{marginTop:"20px"}}>
-          <div className="divs" style={{}}>
+          <div className="input-form" style={{}}>
             <span>Email Address</span>
             <input
               type="email"

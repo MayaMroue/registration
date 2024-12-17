@@ -1,0 +1,86 @@
+$breakpoint-xsm: 376px;
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 1000px;
+$breakpoint-xl: 1200px;
+
+
+@keyframes scrollText {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.text-line {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+
+  .carousel {
+    display: flex;
+    animation: scrollText 25s linear infinite;
+    white-space: nowrap;
+
+    span {
+      display: inline-block;
+      white-space: nowrap;
+      font-size: 24px;
+      color: #000;
+      padding-right: 10px;
+      margin-left: 25px;
+    }
+  }
+
+
+}
+
+
+
+@media (max-width: $breakpoint-sm) {
+  .text-line {
+    margin-top: 50px !important;
+    height: 30px !important;
+  }
+
+  .CarouselSpan {
+    font-size: 14px !important;
+
+  }
+
+
+}
+
+
+
+@media (min-width: $breakpoint-lg) {
+  .text-line {
+    margin-top: 0;
+    height: 50px;
+  }
+
+  .CarouselSpan {
+    font-size: 24px !important;
+
+  }
+}
+
+@media (min-width: $breakpoint-xl) {
+  .text-line {
+    margin-top: 0;
+    height: 50px;
+  }
+
+  .CarouselSpan {
+    font-size: 24px !important;
+
+  }
+
+}

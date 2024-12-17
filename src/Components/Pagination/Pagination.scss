@@ -1,0 +1,22 @@
+.paginationContainer {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--muted-foreground);
+
+  .PaginationButton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    height: auto;
+
+  
+  }
+  .PaginationButton:hover{
+    transform: scale(1.2);
+    color: var(--primary);
+  }
+
+}

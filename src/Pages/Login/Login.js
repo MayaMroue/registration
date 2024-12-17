@@ -23,15 +23,15 @@ const Login = () => {
        </div>
 
             <div className='Card-form' style={{}} >
-             <div className='divs' style={{}}>
+             <div className='input-form' style={{}}>
                 <span>Email Address</span>
                 <input type="email" placeholder="john@gmail.com" className="input input-bordered w-full max-w-xs" />
              </div>       
 
-             <div className='divs' >
+             <div className='input-form' >
 
                 <span>Password</span>
-                <div className='relative divs' >
+                <div className='relative input-form' >
                  <input
                                type={showPassword ? "text" : "password"}
                                value={password}

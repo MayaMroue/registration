@@ -1,0 +1,64 @@
+.Calender_Main .Calendar_Input .Calendar_Field,
+.Calender_Main .Calendar_Input .Calendar_Field:focus-visible {
+  color: var(--black-40);
+}
+
+.Calender_Main {
+  position: relative;
+
+  * {
+    box-sizing: unset !important;
+  }
+
+  .Calendar_Input {
+    width: calc(100% - 37px);
+    min-width: 220px;
+    display: flex;
+    margin-bottom: 0.2rem;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: var(--background);
+    height: 23px;
+    cursor: pointer !important;
+
+    padding: 0.5rem 1rem;
+  }
+}
+.selected_day {
+  background-color: var(--primary);
+  color: white !important;
+}
+.-today {
+  background-color: white !important;
+  color: black !important;
+}
+.Calendar__section {
+  padding: 0 !important;
+}
+.Calendar__section.-hiddenNext {
+  transform: translateX(100%) !important;
+}
+.Calendar__section.-hiddenPrevious {
+  transform: translateX(-100%) !important;
+}
+.Calendar__weekDays {
+  padding: 0 !important;
+}
+.Calendar.-noFocusOutline.custom_calendar.-ltr {
+  padding: 0.5rem !important;
+  padding-top: 1.2rem !important;
+}
+.Calendar__yearSelectorAnimationWrapper {
+  width: auto !important;
+}
+.Calendar__yearSelector.-open {
+  padding: 0 !important;
+}
+.Calendar__sectionWrapper {
+  min-height: 30em !important;
+}
+.Calendar__yearSelectorWrapper.-faded {
+  padding-left: 0.5rem !important;
+}

@@ -26,9 +26,9 @@ const ConfirmPassword = () => {
           
           
 
-          <div className="divs ">
+          <div className="input-form ">
             <span>Password</span>
-            <div className="relative divs">
+            <div className="relative input-form">
               <input
                 type={showPassword ? "text" : "password"}
                 value={password}
@@ -53,9 +53,9 @@ const ConfirmPassword = () => {
               )}
             </div>
           </div>
-          <div className="divs">
+          <div className="input-form">
             <span>Confirm Password</span>
-            <div className="relative divs">
+            <div className="relative input-form">
             <input
                 type={showPassword2 ? "text" : "password"}
                 value={password2}
